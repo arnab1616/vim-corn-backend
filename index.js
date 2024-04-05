@@ -32,9 +32,7 @@ app.use((err, req, res, next)=>{
         message
     })
 })
-app.get('/',(req,res)=>{
-    res.send("hello");
-})
+
 app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/api', newVideo);
