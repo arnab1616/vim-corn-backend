@@ -3,11 +3,11 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const db = new pg.Client({
-    user: process.env.DB_USER,
-    host: process.env.DB_HOST,
-    database: process.env.DB_DATABASE,
-    password: process.env.DB_PASSWORD,
-    port: process.env.DB_PORT,
+    user: 'uwz4sogwbj6zp97hyvpv',
+    host: 'bf0jbrz8e06rhjjlomlu-postgresql.services.clever-cloud.com',
+    database: 'bf0jbrz8e06rhjjlomlu',
+    password: '8zRLOTBf9ofYd8jw0BqEFxOetlzXRn',
+    port: '50013',
 });
 
 export default db;
